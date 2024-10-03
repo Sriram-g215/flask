@@ -15,7 +15,7 @@ def hello_world():
     return 'Hello jenkins whats good' #yo 
 
 # main driver function
-if _name_ == '_main_':
+if __name__ == '__main__':
 
     # run() method of Flask class runs the application 
     # on the local development server.
